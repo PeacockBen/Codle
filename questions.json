@@ -1,0 +1,101 @@
+{
+    "levels": [
+        {
+            "level": 1,
+            "lessons": [
+                {
+                    "lesson": "Lesson 1",
+                    "questions": [
+                        {
+                            "question": "What is a variable?",
+                            "answer": "a named container that stores a value.",
+                            "type": "multiple choice"
+                        },
+                        {
+                            "question": "What is the Variable in the code below?",
+                            "answer": "Value",
+                            "type": "multiple choice",
+                            "code": "Value = 10",
+                            "options": ["Value", "10", "1", "="]
+                        },
+                        {
+                            "question": "What is the Variable in the code below? ",
+                            "code": "\n Value = 5 \n Value += 1 \n print('Value:', Value)",
+                            "answer": "Value",
+                            "type": "multiple choice",
+                            "options": ["Value", "5", "1", "print"]
+                        },
+                        {
+                            "question": "What is a string?",
+                            "answer": "a sequence of characters.",
+                            "type": "fill in the blank"
+                        },
+                        {
+                            "question": "What is the value of the Variable?",
+                            "code": "Variable = 5 \n Variable = Variable +1 \n print(Variable)",
+                            "answer": "A loop is a programming construct that repeats a set of instructions.",
+                            "type": "multiple choice"
+
+                        },
+                        {
+                            "question": "What is the string in the code below? \n text = 'Hello, World!'",
+                            "answer": "Hello, World!",
+                            "type": "multiple choice"
+                        }
+                        
+                    ]
+                },
+                {
+                    "lesson": "Lesson 2",
+                    "questions": [
+                        {
+                            "question": "What is an array?",
+                            "answer": "An array is a data structure that stores a collection of elements.",
+                            "type": "multiple choice"
+                        },
+                        {
+                            "question": "What is a function?",
+                            "answer": "A function is a reusable block of code that performs a specific task.",
+                            "type": "code yourself"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "lessons": [
+                {
+                    "lesson": "Lesson 1",
+                    "questions": [
+                        {
+                            "question": "What is object-oriented programming?",
+                            "answer": "Object-oriented programming is a programming paradigm that organizes data and behavior into objects.",
+                            "type": "multiple choice"
+                        },
+                        {
+                            "question": "What is inheritance?",
+                            "answer": "Inheritance is a mechanism in object-oriented programming that allows a class to inherit properties and methods from another class.",
+                            "type": "fill in the blank"
+                        }
+                    ]
+                },
+                {
+                    "lesson": "Lesson 2",
+                    "questions": [
+                        {
+                            "question": "What is exception handling?",
+                            "answer": "Exception handling is a mechanism to handle runtime errors and prevent program crashes.",
+                            "type": "multiple choice"
+                        },
+                        {
+                            "question": "What is polymorphism?",
+                            "answer": "Polymorphism is the ability of an object to take on many forms.",
+                            "type": "code yourself"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
