@@ -1,0 +1,79 @@
+/* Dark mode styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1a1a1a;
+    color: #eeeeee;
+}
+
+#questions-container { 
+    background-color: #272727;
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.button-container {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 columns of equal width */
+    gap: 10px;
+    height: 20%;
+}
+
+button {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 20%;
+    
+}
+
+/* .feedback{} */
+#feedback-container {
+    position: fixed; /* Stay in a fixed position on the screen */
+    top: 35%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Align center */
+    z-index: 1000; /* Ensure it appears above other elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent background */
+    visibility: hidden; /* Hidden by default */
+    opacity: 0; /* Invisible by default */
+    /* transition: opacity 0.3s ease, visibility 0.3s ease; */
+}
+
+#feedback-container.visible {
+    visibility: visible; /* Make it visible when the class is added */
+    opacity: 1; /* Fade in */
+}
+
+.feedback-box {
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
